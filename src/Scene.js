@@ -15,15 +15,15 @@ export default class extends React.Component {
   // @todo - should all props be documented/specified here?
 
   static propTypes = {
-    tabBarStyle: View.propTypes.style,
-    tabBarSelectedItemStyle: View.propTypes.style,
-    tabBarIconContainerStyle: View.propTypes.style,
-    tabBarShadowStyle: View.propTypes.style,
-    tabSceneStyle: View.propTypes.style,
-    tabStyle: View.propTypes.style,
-    tabTitleStyle: Text.propTypes.style,
-    tabSelectedTitleStyle: Text.propTypes.style,
-    tabTitle: PropTypes.string,
+    //tabBarStyle: View.propTypes.style,
+    //tabBarSelectedItemStyle: View.propTypes.style,
+    //tabBarIconContainerStyle: View.propTypes.style,
+    //tabBarShadowStyle: View.propTypes.style,
+    //tabSceneStyle: View.propTypes.style,
+    //tabStyle: View.propTypes.style,
+    //tabTitleStyle: Text.propTypes.style,
+    //tabSelectedTitleStyle: Text.propTypes.style,
+    //tabTitle: PropTypes.string,
   };
 
   render() {

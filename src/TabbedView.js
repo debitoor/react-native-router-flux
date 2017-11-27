@@ -16,9 +16,9 @@ const styles = StyleSheet.create({
 class TabbedView extends Component {
 
   static propTypes = {
-    navigationState: PropTypes.object.isRequired,
-    renderScene: PropTypes.func.isRequired,
-    style: View.propTypes.style,
+    //navigationState: PropTypes.object.isRequired,
+    //renderScene: PropTypes.func.isRequired,
+    //style: View.propTypes.style,
   };
 
   constructor(props, context) {

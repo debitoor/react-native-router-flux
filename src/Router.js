@@ -25,10 +25,10 @@ const {
 } = NavigationExperimental;
 
 const propTypes = {
-  dispatch: PropTypes.func,
-  backAndroidHandler: PropTypes.func,
-  onBackAndroid: PropTypes.func,
-  onExitApp: PropTypes.func,
+  //dispatch: PropTypes.func,
+  //backAndroidHandler: PropTypes.func,
+  //onBackAndroid: PropTypes.func,
+  //onExitApp: PropTypes.func,
 };
 
 class Router extends Component {

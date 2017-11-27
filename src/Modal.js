@@ -1,15 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import {
   View,
 } from 'react-native';
 import DefaultRenderer from './DefaultRenderer';
 
 const propTypes = {
-  navigationState: PropTypes.shape({
-    children: PropTypes.array,
-  }),
-  onNavigate: PropTypes.func,
+  //navigationState: PropTypes.shape({
+  //  children: PropTypes.array,
+  //}),
+  //onNavigate: PropTypes.func,
 };
 
 export default function Modal(props: Object) {

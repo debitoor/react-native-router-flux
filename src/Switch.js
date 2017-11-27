@@ -65,9 +65,9 @@ export default function Switch(props) {
 }
 
 Switch.propTypes = {
-  navigationState: PropTypes.object,
-  onNavigate: PropTypes.func,
-  selector: PropTypes.func,
-  statem: PropTypes.any,
-  unmountScenes: PropTypes.bool,
+  //navigationState: PropTypes.object,
+  //onNavigate: PropTypes.func,
+  //selector: PropTypes.func,
+  //statem: PropTypes.any,
+  //unmountScenes: PropTypes.bool,
 };

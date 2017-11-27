@@ -13,12 +13,12 @@ import { deepestExplicitValueForKey } from './Util';
 class TabBar extends Component {
 
   static propTypes = {
-    navigationState: PropTypes.object,
-    tabIcon: PropTypes.any,
-    onNavigate: PropTypes.func,
-    unmountScenes: PropTypes.bool,
-    pressOpacity: PropTypes.number,
-    hideOnChildTabs: PropTypes.bool,
+    //navigationState: PropTypes.object,
+    //tabIcon: PropTypes.any,
+    //onNavigate: PropTypes.func,
+    //unmountScenes: PropTypes.bool,
+    //pressOpacity: PropTypes.number,
+    //hideOnChildTabs: PropTypes.bool,
   };
 
   static onSelect(el) {

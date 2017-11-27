@@ -101,8 +101,8 @@ function leftToRight(/* NavigationSceneRendererProps */ props) {
 export default class DefaultRenderer extends PureComponent {
 
   static propTypes = {
-    navigationState: PropTypes.object,
-    onNavigate: PropTypes.func,
+    //navigationState: PropTypes.object,
+    //onNavigate: PropTypes.func,
   };
 
   static childContextTypes = {
