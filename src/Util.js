@@ -1,3 +1,5 @@
+import { Dimensions } from 'react-native';
+
 // searches for the deepest explicitly set value for a key
 // in a navigationState tree.
 export function deepestExplicitValueForKey(navigationState, key) {
@@ -35,7 +37,12 @@ export function assert(expr, failDescription) {
   }
 }
 
+export function isIphoneX() {
+  return Dimensions.get('window').height === 812;
+}
+
 export default {
   deepestExplicitValueForKey,
   assert,
+  isIphoneX
 };

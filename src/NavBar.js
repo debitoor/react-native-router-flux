@@ -38,6 +38,7 @@ import {
 import Actions from './Actions';
 import _drawerImage from './menu_burger.png';
 import _backButtonImage from './back_chevron.png';
+import {isIphoneX} from './Util';
 
 const styles = StyleSheet.create({
   title: {
@@ -484,7 +485,7 @@ class NavBar extends React.Component {
     const navigationBarBackgroundImage = this.props.navigationBarBackgroundImage ||
       state.navigationBarBackgroundImage;
     const contents = (
-      <View>
+      <View style={{marginTop: isIphoneX() ? 17 : 0}}>
         {renderTitle ? renderTitle(navProps) : state.children.map(this.renderTitle, this)}
         {renderBackButton(navProps) || renderLeftButton(navProps)}
         {renderRightButton(navProps)}
