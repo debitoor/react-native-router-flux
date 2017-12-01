@@ -8,7 +8,7 @@ import Tabs from 'react-native-tabs';
 import DefaultRenderer from './DefaultRenderer';
 import Actions from './Actions';
 import TabbedView from './TabbedView';
-import { deepestExplicitValueForKey } from './Util';
+import { deepestExplicitValueForKey, isIphoneX } from './Util';
 
 class TabBar extends Component {
 
@@ -59,7 +59,7 @@ class TabBar extends Component {
 
     const contents = (
       <Tabs
-        style={state.tabBarStyle}
+        style={[state.tabBarStyle, isIphoneX() && {paddingBottom: 34, height: state.tabBarStyle.height + 34}]}
         selectedIconStyle={state.tabBarSelectedItemStyle}
         iconStyle={state.tabBarIconContainerStyle}
         onSelect={TabBar.onSelect} {...state}
